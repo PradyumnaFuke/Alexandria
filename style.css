@@ -1,0 +1,73 @@
+body, html {
+
+    margin: 0;
+
+    padding: 0;
+
+    height: 100%;
+
+    display: grid; /* Use grid layout */
+
+    justify-items: center; /* Centers the card horizontally */
+
+    align-items: center; /* Centers the card vertically */
+
+}
+
+.card {
+
+    font-family: RR;
+
+    font-size: 20px;
+
+    text-align: center;
+
+    color: black; /* Set text color explicitly */
+
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+
+    background-size: cover;
+
+    background-attachment: fixed;
+
+    border-radius: 15px; /* Rounds the corners of the card */
+
+    width: 396px; /* Adjust width */
+
+    height: 769px; /* Adjust height */
+
+    
+
+    /* Square grid background like a notebook */
+
+    background-image: linear-gradient(to right, #0082ff 0.2px, transparent 0px), 
+
+                      linear-gradient(to bottom, #0082ff 0.2px, transparent 0px);
+
+    background-size: 15px 15px; /* Creates the square grid */
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+/* Keep cloze color and fonts */
+
+.cloze {
+
+    font-family: RR;
+
+    font-weight: bold;
+
+    color: #0082ff; /* Set cloze color explicitly */
+
+}
+
+.card p {
+
+    background-color: transparent; /* Removes any background behind the text */
+
+    padding: 20px; /* Adjust padding around the text */
