@@ -32,9 +32,11 @@ body, html {
 
     border-radius: 15px; /* Rounds the corners of the card */
 
-    width: 396px; /* Adjust width */
+    width: 80%;
+    
+    max-width: 800px; /* Adjust width */
 
-    height: 769px; /* Adjust height */
+    height: auto; /* Adjust height */
 
     
 
