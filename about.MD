@@ -1,0 +1,1 @@
+This is Project Alexandria, a treasure trove of amazing internet resources that I discovered during my voyage on the internet, which is one of the greatest inventions and discoveries of mankind. The project is still in its early phase, so this is not its final form.
