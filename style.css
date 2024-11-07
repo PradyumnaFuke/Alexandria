@@ -1,4 +1,6 @@
-body, html {
+/* Apply Quicksand font to body */
+body {
+    font-family: 'Quicksand', sans-serif; /* Apply Quicksand font globally */
     margin: 0;
     padding: 0;
     width: 100%;
@@ -6,5 +8,33 @@ body, html {
     display: grid; /* Use grid layout */
     justify-items: center; /* Centers the card horizontally */
     align-items: center; /* Centers the card vertically */
-    justify-content: center; /* Centers the content horizontally (note: this may be redundant in grid layout) */
+    justify-content: center; /* Centers the content horizontally */
+    
+    /* Square grid background */
+    background-image: linear-gradient(to right, #0082ff 0.2px, transparent 0px), 
+                      linear-gradient(to bottom, #0082ff 0.2px, transparent 0px);
+    background-size: 15px 15px; /* Creates the square grid */
+    background-color: #ffffff; /* Optional: sets a white background under the grid */
+}
+
+.centered-text {
+    text-align: center;
+}
+
+/* Apply custom font styling for the specific text */
+h3 span {
+    font-family: 'Georgia', serif; /* This keeps 'Alexandria will be built here' in Georgia font */
+}
+
+/* Container with transparent background */
+div {
+    padding: 20px; /* Optional: adjusts spacing inside the div */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: adds transparency to the background */
+    border-radius: 15px; /* Optional: rounds corners for a softer look */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: adds a slight shadow to make it stand out */
+}
+
+p {
+    color: black; /* Ensures text is legible */
+    padding: 10px;
 }
